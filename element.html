@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Позиціонування елементів</title>
+    <style>
+        .static-position {
+            position: static;
+            background-color: lightblue;
+        }
+        .relative-position {
+            position: relative;
+            left: 20px;
+            background-color: lightgreen;
+        }
+        .absolute-position {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            background-color: lightyellow;
+        }
+        .fixed-position {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: lightcoral;
+        }
+        .sticky-position {
+            position: sticky;
+            top: 0;
+            background-color: lightpink;
+        }
+    </style>
+</head>
+<body>
+    <div class="static-position">Цей елемент має статичне позиціонування (static).</div>
+    <div class="relative-position">Цей елемент має відносне позиціонування (relative).</div>
+    <div class="absolute-position">Цей елемент має абсолютне позиціонування (absolute).</div>
+    <div class="fixed-position">Цей елемент має фіксоване позиціонування (fixed).</div>
+    <div class="sticky-position">Цей елемент має липке позиціонування (sticky).</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+/* 1. Set default box-sizing to border-box for all elements */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. Set proper line-height */
+body {
+    line-height: 1.5;
+}
+
+/* 4. Normalize text rendering and allow for proper font display */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%; /* Prevent adjusting font size in IE */
+    -webkit-text-size-adjust: 100%; /* Prevent adjusting font size in webkit */
+}
+
+/* 5. Make sure block elements have consistent margins and paddings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* 6. Reset list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* 7. Reset form elements */
+input, button, textarea, select {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,56 @@
+/* 1. Remove all margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Set box-sizing to border-box for all elements */
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+/* 3. Remove background for body */
+body {
+    background: none;
+    color: inherit;
+    font-family: sans-serif;
+}
+
+/* 4. Remove default styles for images and other media */
+img, picture, video, iframe, object, embed, svg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* 5. Remove list styles */
+ul, ol {
+    list-style: none;
+}
+
+/* 6. Remove text decoration */
+a {
+    text-decoration: none;
+}
+
+/* 7. Remove default styles for form elements */
+input, button, textarea, select {
+    background: none;
+    border: none;
+    font: inherit;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+/* 8. Remove default table styles */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 9. Remove default styles for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}

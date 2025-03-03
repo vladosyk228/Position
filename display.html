@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Властивість Display</title>
+    <style>
+        .block-element {
+            display: block;
+            background-color: lightblue;
+            margin-bottom: 10px;
+        }
+        .inline-element {
+            display: inline;
+            background-color: lightgreen;
+            padding: 5px;
+        }
+        .flex-container {
+            display: flex;
+            gap: 10px;
+        }
+        .box {
+            box-sizing: border-box;
+            width: 100px;
+            padding: 20px;
+            background-color: lightcoral;
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div class="block-element">Це блоковий елемент</div>
+    <span class="inline-element">Це інлайновий елемент</span>
+    <span class="inline-element">Ще один інлайновий елемент</span>
+
+    <div class="flex-container">
+        <div>Елемент 1</div>
+        <div>Елемент 2</div>
+        <div>Елемент 3</div>
+    </div>
+
+    <div class="box">Властивість box-sizing: border-box</div>
+</body>
+</html>
