@@ -1,44 +1,39 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Властивість Display</title>
+    <title>CSS Display</title>
     <style>
-        .block-element {
-            display: block;
-            background-color: lightblue;
-            margin-bottom: 10px;
-        }
-        .inline-element {
-            display: inline;
-            background-color: lightgreen;
-            padding: 5px;
-        }
-        .flex-container {
-            display: flex;
-            gap: 10px;
-        }
         .box {
-            box-sizing: border-box;
             width: 100px;
-            padding: 20px;
-            background-color: lightcoral;
-            border: 5px solid red;
+            height: 100px;
+            background: lightgreen;
+            margin: 10px;
         }
+        .block { display: block; }
+        .inline { display: inline; }
+        .flex { display: flex; }
     </style>
 </head>
 <body>
-    <div class="block-element">Це блоковий елемент</div>
-    <span class="inline-element">Це інлайновий елемент</span>
-    <span class="inline-element">Ще один інлайновий елемент</span>
 
-    <div class="flex-container">
-        <div>Елемент 1</div>
-        <div>Елемент 2</div>
-        <div>Елемент 3</div>
-    </div>
+    <h1>Разные значения display</h1>
 
-    <div class="box">Властивість box-sizing: border-box</div>
+    <div class="box block">Block</div>
+    <div class="box inline">Inline</div>
+    <div class="box flex">Flex</div>
+
+    <hr>
+
+    <nav>
+        <a href="style.html">Нормализация стилей</a> | 
+    <a href="reset.html">Сброс стилей</a> | 
+    <a href="display.html">CSS Display</a> | 
+    <a href="float.html">Float & Clear</a> | 
+    <a href="overflow.html">Overflow</a> | 
+    <a href="element.html">Позиционирование</a>
+    </nav>
+
 </body>
 </html>

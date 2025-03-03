@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Експеримент з блоковими елементами</title>
+    <title>Блоковые и инлайновые элементы</title>
+    <style>
+        .block {
+            display: block;
+            background-color: lightblue;
+            padding: 10px;
+            margin: 5px 0;
+        }
+        .inline {
+            display: inline;
+            background-color: lightcoral;
+            padding: 5px;
+        }
+    </style>
 </head>
 <body>
-    <div style="background-color: lightblue; margin-bottom: 10px;">
-        <h1>Це блоковий елемент</h1>
-        <p>Цей абзац є блоковим елементом, він розташовується на новому рядку.</p>
-    </div>
-    <span style="background-color: lightgreen; padding: 5px;">Це інлайновий елемент</span>
-    <span style="background-color: lightyellow; padding: 5px;">Ще один інлайновий елемент</span>
+
+    <h1>Блоковые и инлайновые элементы</h1>
+    
+    <div class="block">Я блоковый элемент (div)</div>
+    <span class="inline">Я инлайновый элемент (span)</span>
+    <span class="inline">Еще один инлайновый элемент</span>
+
+    <hr>
+
+    <nav>
+        <a href="style.html">Нормализация стилей</a> | 
+    <a href="reset.html">Сброс стилей</a> | 
+    <a href="display.html">CSS Display</a> | 
+    <a href="float.html">Float & Clear</a> | 
+    <a href="overflow.html">Overflow</a> | 
+    <a href="element.html">Позиционирование</a>
+    </nav>
+
 </body>
 </html>
